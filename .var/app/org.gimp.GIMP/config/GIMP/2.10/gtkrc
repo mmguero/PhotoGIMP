@@ -312,6 +312,7 @@ style "gimp-dark-display-style" = "gimp-dark-default-style"
   GtkButton::inner-border = { 0, 0, 0, 0 }
   GtkButton::focus-line-width = 0
   GtkButton::focus-padding = 0
+  bg[NORMAL] = @clr9
 }
 
 widget_class "*GimpDisplayShell.*" style "gimp-dark-display-style"
