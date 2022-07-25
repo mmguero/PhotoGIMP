@@ -62,7 +62,7 @@
     (unit pixels)
     (cap-style round)
     (join-style round)
-    (miter-limit 10)
+    (miter-limit 10.0)
     (dash-offset 0)
     (dash-info 12 1 1 1 1 1 1 1 1 1 1 1 1)
     (emulate-brush-dynamics no))
