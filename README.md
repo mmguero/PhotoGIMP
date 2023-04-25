@@ -14,7 +14,7 @@ A patch for optimizing GIMP 2.10+ for Adobe Photoshop users, including features 
 
 ![PhotoGimp Diolinux Splash Art](./.var/app/org.gimp.GIMP/config/GIMP/2.10/splashes/photogimp-diolinux-splash.png)
 
-**📷 Screenshots**
+## 📷 Screenshots
 
 ![PhotoGimp Screenshot - Editing Google Takeout](./screenshots/2020-06-22_12-06.png)
 ![PhotoGimp Screenshot OSX](./screenshots/osx.png)
@@ -25,12 +25,13 @@ This package is all about flatpak, but it also contains "just files" that you ca
 
 **Start and quit GIMP after you installed before you continue!**
 
-### Prepare the Flatpak enviroment
+### Prepare the Flatpak environment
 
 *If you have previously had GIMP installed via .deb, .rpm, etc., please ensure you delete the directory `$HOME/.config/GIMP`, as this may cause conflicts with the Flatpak config files.*
-* First of all, you need to have the latest GIMP installed on your system [using Flatpak](https://flatpak.org/setup/)
-* Install GIMP Flatpak through your AppCenter/Package Manager or terminal:
-```flatpak install flathub org.gimp.GIMP```
+
+1. First of all, you need to have the latest GIMP installed on your system [using Flatpak](https://flatpak.org/setup/)
+2. Install GIMP Flatpak through your AppCenter/Package Manager or terminal:
+   ```flatpak install flathub org.gimp.GIMP```
 
 ### Install PhotoGIMP
 
@@ -103,8 +104,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/MatthijsKamstra/Mac-setup/
 
 ### Windows
 
-Configuration folder: `%APPDATA%\GIMP\2.10`
-
+* Download the file [PhotoGIMP.zip](https://github.com/Diolinux/PhotoGIMP/releases)
+* Access the path `.var\app\org.gimp.GIMP\config\GIMP\2.10` from the ZIP, copy the files to the path `%APPDATA%\GIMP\2.10`
 * [Video Tutorial by Davies Media Design on Windows](https://youtu.be/57DNUsf4A-0)
 
 Or install via [Chocolatey](https://chocolatey.org/):
